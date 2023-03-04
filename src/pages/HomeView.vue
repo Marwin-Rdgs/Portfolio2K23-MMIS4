@@ -621,7 +621,7 @@
   </section>
 
   <div class="h-2 bg-mlightblue blur rotate-180"></div>
-  <!-- <img src="../assets/bg-cloud.gif" alt="" class="absolute w-full desktop:h-full phone:h-[1140px] z-0"> -->
+  <img src="../assets/bg-clouds1.gif" alt="" class="absolute w-full desktop:h-full phone:h-[1140px] z-0">
   <section id="Services" class="mt-0 relative shadow-lg shadow-mlightblue">
 
     <h1 class="z-10 text-transparent bg-clip-text bg-gradient-to-b from-black to-mdarkblue desktop:text-xl desktop:mr-20 text-left font-swap">SERVICES</h1>
@@ -671,7 +671,7 @@
 
   </section>
 
-  <!-- <img src="../assets/bg-cloud2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0"> -->
+  <img src="../assets/bg-clouds2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0">
   <section id="Stats" class="mt-0 z-10">
     <div class="grid desktop:grid-cols-3 z-10 phone:mt-20 desktop:mt-48">
       <h2 class="phone:text-lg desktop:text-xl text-center desktop:col-span-3 mb-4 z-10">Marwin c'est</h2>
