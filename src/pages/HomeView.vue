@@ -657,7 +657,7 @@
             <img src="../assets/communication.png" alt="">
           </div>
           <h1 class="text-center">Communication</h1>
-          <p class="font-sans text-4xs text-center mt-2">Besoin de créer une maquette de site internet pour votre projet ? <br /> je vous propose mes services de Maquettage et Prototyppage Web</p>
+          <p class="font-sans text-4xs text-center mt-2">Une envie d'améliorer votre présence sur internet ?<br /> je vous propose mes services d'analyse de stratégie de communication mais également d'alimenter vos réseaux sociaux.</p>
         </div>
       </div>
 
@@ -671,8 +671,8 @@
 
   </section>
 
-  <img src="../assets/bg-clouds2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0">
-  <section id="Stats" class="mt-0 z-10">
+  <img src="../assets/bg-clouds2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0 desktop:-mt-2">
+  <section id="Stats" class="mt-0 z-10 desktop:-mt-2">
     <div class="grid desktop:grid-cols-3 z-10 phone:mt-20 desktop:mt-48">
       <h2 class="phone:text-lg desktop:text-xl text-center desktop:col-span-3 mb-4 z-10">Marwin c'est</h2>
       <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-10 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="1" :duration="1" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Commanditaires </span> </h4>
@@ -685,9 +685,9 @@
     <h1 class="mb-24">Mes Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
-    <div v-for="Projets in Projets" :key="Projets.projectId" class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8">
-            <cardP v-bind="Projets" class="col-span-1"/>
-        </div>
+    <div v-for="Projets in Projets" :key="Projets.projectId" class="grid phone:mx-2 desktop:mx-8">
+      <cardP v-bind="Projets" class="col-span-1"/>
+    </div>
 
 
     <Router-Link to="/projets" class="col-span-3 flex justify-center mt-10">
@@ -720,7 +720,7 @@
 import { supabase } from "../supabase.js";
 import Vue3autocounter from 'vue3-autocounter';
 
-import cardP from "../components/cardP.vue"
+import cardP from "../components/cardP2.vue"
 import cardV from "../components/cardV.vue"
 
 import footerm from "../components/footer.vue"
