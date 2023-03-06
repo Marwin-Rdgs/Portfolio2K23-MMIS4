@@ -4,12 +4,12 @@
       <div class="modal" @click.stop>
         <img class="check" src="../assets/menu-phone/Menu.svg" alt="" />
         <h6>{{projectTitle}}</h6>
-        <img :src=projectImg alt="">
+        <!-- <img :src=projectImg alt=""> -->
         <p>{{ projectDesc }} <br /> <br /> {{ projectDescTech }} </p>
         <div class="flex justify-center gap-3">
         <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Repository</button></a>
         <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Documentation</button></a>
-        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Site</button></a>
+        <a :href="projectSite" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Site</button></a>
       </div></div>
       <div class="close" @click="$emit('close-modal')">
         <img class="close-img" src="../assets/menu-phone/cross.png" alt="" />
@@ -36,6 +36,10 @@
       type: String,
       default: "DEFAUT"
     },
+    projectSite : {
+      type: String,
+      default: "#",
+    }
   },
   }
   </script>

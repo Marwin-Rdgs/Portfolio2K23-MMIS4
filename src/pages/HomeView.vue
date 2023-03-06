@@ -681,12 +681,14 @@
     </div>
   </section>
 
-  <section id="Projets" class="mt-96">
+  <section id="Projets" class="mt-32">
     <h1 class="mb-24">Mes Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
-    <div v-for="Projets in Projets" :key="Projets.projectId" class="grid phone:mx-2 desktop:mx-8">
-      <cardP v-bind="Projets" class="col-span-1"/>
+    <div class="flex justify-center">
+      <div v-for="Projets in Projets" :key="Projets.projectId" class="grid grid-cols-3 phone:mx-2 desktop:mx-8">
+        <cardP v-bind="Projets"/>
+      </div>
     </div>
 
 

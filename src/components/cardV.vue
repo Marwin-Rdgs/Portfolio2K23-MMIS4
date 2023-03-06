@@ -5,7 +5,7 @@
     <!-- => Dev -->
     <div class="bg-green-400 flex justify-center p-2" v-if="veilleCateg == 'Dev'">
       <div>
-        <img src="../assets/card/veilles/dev.png" alt="">
+        <img src="/public/card/veilles/dev.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Developpement</h3>
       </div>
     </div>
@@ -13,7 +13,7 @@
     <!-- => Design -->
     <div class="bg-green-400 flex justify-center p-2" v-if="veilleCateg == 'Design'">
       <div>
-        <img src="../assets/card/veilles/design.png" alt="">
+        <img src="/public/card/veilles/design.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Design</h3>
       </div>
     </div>
@@ -21,7 +21,7 @@
     <!-- => Communication -->
     <div class="bg-green-400 flex justify-center p-2" v-if="veilleCateg == 'Communication'">
       <div>
-        <img src="../assets/card/veilles/communication.png" alt="">
+        <img src="/public/card/veilles/communication.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Communication</h3>
       </div>
     </div>
@@ -29,7 +29,7 @@
     <!-- => Gestion -->
     <div class="bg-green-400 flex justify-center p-2" v-if="veilleCateg == 'Gestion'">
       <div>
-        <img src="../assets/card/veilles/gestion.png" alt="">
+        <img src="/public/card/veilles/gestion.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Gestion</h3>
       </div>
     </div>
@@ -37,7 +37,7 @@
     <!-- => Other -->
     <div class="bg-green-400 flex justify-center p-2" v-if="veilleCateg == 'Other'">
       <div>
-        <img src="../assets/card/veilles/more.png" alt="">
+        <img src="/public/card/veilles/more.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Other</h3>
       </div>
     </div>

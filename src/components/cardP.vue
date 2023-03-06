@@ -5,7 +5,7 @@
     <!-- => Presta -->
     <div class="bg-red-400 flex justify-center p-2 rounded-md" v-if="projectCateg == 'Presta'">
       <div>
-        <img src="../assets/card/projects/presta.png" alt="">
+        <img src="/public/card/projects/presta.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Prestation</h3>
       </div>
     </div>
@@ -13,7 +13,7 @@
     <!-- => School -->
     <div class="bg-red-400 flex justify-center p-2 rounded-md" v-if="projectCateg == 'School'">
       <div>
-        <img src="../assets/card/projects/school.png" alt="">
+        <img src="/public/card/projects/school.png" alt="">
         <h3 class="text-mwhite my-2 text-center">School</h3>
       </div>
     </div>
@@ -21,7 +21,7 @@
     <!-- => Perso -->
     <div class="bg-red-400 flex justify-center p-2 rounded-md" v-if="projectCateg == 'Perso'">
       <div>
-        <img src="../assets/card/projects/perso.png" alt="">
+        <img src="/public/card/projects/perso.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Personnal</h3>
       </div>
     </div>
@@ -29,7 +29,7 @@
     <!-- => Pro -->
     <div class="bg-red-400 flex justify-center p-2 rounded-md" v-if="projectCateg == 'Pro'">
       <div>
-        <img src="../assets/card/projects/pro.png" alt="">
+        <img src="/public/card/projects/pro.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Professional</h3>
       </div>
     </div>
@@ -37,7 +37,7 @@
     <!-- => Template -->
     <div class="bg-red-400 flex justify-center p-2 rounded-md" v-if="projectCateg == 'Template'">
       <div>
-        <img src="../assets/card/projects/template.png rounded-md" alt="">
+        <img src="/public/card/projects/template.png" alt="">
         <h3 class="text-mwhite my-2 text-center">Template</h3>
       </div>
     </div>

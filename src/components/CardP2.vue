@@ -1,6 +1,6 @@
 <template>
         <!-- Card -->
-        <div class="max-w-xs">
+        <div class="max-w-xs mx-auto z-10 hover:scale-110 hover:shadow-mdarkblue hover:shadow-md duration-150">
             <div class="relative bg-mdarkblue shadow-lg rounded-lg p-5 overflow-hidden">
                 <!-- Illustration -->
                 <svg class="absolute top-0 right-0" width="158" height="119" aria-hidden="true">
@@ -46,22 +46,24 @@
                 </svg>
                 <!-- Card content -->
                 <div class="relative pt-[6.25rem] pb-14">
-                    <div class="text-xs font-bold uppercase text-green-400 tracking-widest mb-2">Titre</div>
-                    <h3 class="text-2xl font-extrabold text-indigo-50 leading-snug mb-2">Timeline</h3>
-                    <p class="text-indigo-200">Texte</p>
+                    <div class="text-xs font-bold uppercase text-green-400 tracking-widest mb-2">{{projectTitle}}</div>
+                    <h3 class="text-2xl font-extrabold text-indigo-50 leading-snug mb-2">{{projectCateg}}</h3>
+                    <!-- <p class="text-indigo-200">Texte</p> -->
                 </div>
                 <!-- Card footer -->
                 <div class="relative text-right">
-                    <a @click="showModal = true" class="inline-flex w-11 h-11 justify-center items-center bg-mlightblue hover:bg-blue-300 text-pink-50 hover:text-white rounded-full transition duration-150"><span class="sr-only">Read more</span> <span class="font-bold -mt-px">+</span></a>
+                    <a @click="showModal = true" href="#Projets" class="inline-flex w-11 h-11 justify-center items-center bg-mlightblue hover:bg-blue-300 text-pink-50 hover:text-white rounded-full transition duration-150"><span class="sr-only">Read more</span> <span class="font-bold -mt-px">+</span></a>
                 </div>
             </div>
         </div>
 
-    <modalP v-show="showModal" @close-modal="showModal = false"
+    <modalP class="z-50"
+    v-show="showModal" @close-modal="showModal = false"
     :projectTitle="projectTitle"
     :projectDesc="projectDesc"
     :projectDescTech="projectDescTech"
-    :projectImg="projectImg"/>
+    :projectImg="projectImg"
+    :projectSite="projectSite"/>
 </template>
 
 <script setup>
@@ -86,6 +88,10 @@ defineProps ({
       type: String,
       default: "nothing"
     },
+    projectSite: {
+      type: String,
+      default: "nothing",
+    }
 });
 </script>
 
