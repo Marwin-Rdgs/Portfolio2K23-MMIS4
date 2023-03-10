@@ -685,8 +685,8 @@
     <h1 class="mb-24">Mes Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
-    <div class="flex justify-center">
-      <div v-for="Projets in Projets" :key="Projets.projectId" class="grid grid-cols-3 phone:mx-2 desktop:mx-8">
+    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8">
+      <div v-for="Projets in Projets" :key="Projets.projectId"  class="phone:mt-10 desktop:mt-0">
         <cardP v-bind="Projets"/>
       </div>
     </div>
@@ -701,9 +701,10 @@
   <section id="Veilles" class="mt-96">
     <h1>Veilles Technologiques</h1>
 
+    <div class="flex justify-center">
     <div v-for="Veille in Veille" :key="Veille.veilleId" class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8">
-      <cardV v-bind="Veille" class="col-span-1"/>
-    </div>
+      <cardV v-bind="Veille"/>
+    </div></div>
 
     <Router-Link to="/veilles" class="col-span-3 flex justify-center mt-10">
       <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
@@ -712,7 +713,7 @@
   </section>
 
 
-  <footerm class="bottom-0 mt-32" />    
+  <footerm class="bottom-0" />    
 
 
 
@@ -722,7 +723,7 @@
 import { supabase } from "../supabase.js";
 import Vue3autocounter from 'vue3-autocounter';
 
-import cardP from "../components/cardP2.vue"
+import cardP from "../components/CardP.vue"
 import cardV from "../components/cardV.vue"
 
 import footerm from "../components/footer.vue"

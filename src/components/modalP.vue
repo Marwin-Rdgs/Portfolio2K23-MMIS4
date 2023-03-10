@@ -1,15 +1,15 @@
 <!-- FAIRE DES SLOTS = TITRE/LIENS/DESC/etc... -->
 <template>
     <div class="modal-overlay" @click="$emit('close-modal')">
-      <div class="modal" @click.stop>
-        <img class="check" src="../assets/menu-phone/Menu.svg" alt="" />
-        <h6>{{projectTitle}}</h6>
-        <!-- <img :src=projectImg alt=""> -->
-        <p>{{ projectDesc }} <br /> <br /> {{ projectDescTech }} </p>
-        <div class="flex justify-center gap-3">
-        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Repository</button></a>
-        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Documentation</button></a>
-        <a :href="projectSite" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2">Site</button></a>
+      <div class="modal phone:w-[300px] phone:h-[720px] desktop:w-[500px] desktop:h-[500px]" @click.stop>
+        <!-- DIMENSION IDEALE IMG = 1280x450 -->
+        <img :src="projectImg" alt="" class="rounded-t-[20px] -mt-3 h-1/3 w-full">
+        <h6 class="phone:text-3xs desktop:text-xs">{{projectTitle}}</h6>
+        <p class="phone:text-5xs desktop:text-4xs">{{ projectDesc }} <br /> <br /> {{ projectDescTech }} </p>
+        <div class="phone:grid desktop:flex desktop:justify-center gap-3">
+        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Repository</button></a>
+        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Documentation</button></a>
+        <a :href="projectSite" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Site</button></a>
       </div></div>
       <div class="close" @click="$emit('close-modal')">
         <img class="close-img" src="../assets/menu-phone/cross.png" alt="" />
@@ -60,8 +60,6 @@
 .modal {
   text-align: center;
   background-color: white;
-  height: 500px;
-  width: 500px;
   margin-top: 6%;
   padding: 10px 0;
   border-radius: 20px;
@@ -80,21 +78,17 @@
 }
 
 h6 {
-  font-weight: 500;
-  font-size: 28px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 p {
-  font-size: 16px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 button {
   width: 150px;
   height: 40px;
-  font-size: 14px;
   border-radius: 16px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 </style>
