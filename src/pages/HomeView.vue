@@ -685,7 +685,7 @@
     <h1 class="mb-24">Mes Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
-    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8">
+    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
       <div v-for="Projets in Projets" :key="Projets.projectId"  class="phone:mt-10 desktop:mt-0">
         <cardP v-bind="Projets"/>
       </div>
