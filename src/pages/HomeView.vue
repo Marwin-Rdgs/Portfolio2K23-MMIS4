@@ -765,8 +765,6 @@ import Vue3autocounter from 'vue3-autocounter';
 import cardP from "../components/CardP.vue"
 import cardV from "../components/cardV.vue"
 
-import footerm from "../components/footer.vue"
-
 import {ref} from 'vue';
 const menuVisible = ref(true);
 
