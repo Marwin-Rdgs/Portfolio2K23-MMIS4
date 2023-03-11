@@ -29,7 +29,7 @@
                   <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
                 </div>
                 <div class="group relative">
-                  <a href="#Pres" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">À propos</p></li></a>
+                  <a href="#About" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">À propos</p></li></a>
                   <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
                 </div>
                 <div class="group relative">
@@ -63,7 +63,7 @@
             <li class="z-50"><a href="#Veilles" @click="menuVisible = !menuVisible" class="z-50">
               <h2 class="z-50">Veilles</h2></a>
             </li>
-            <li class="z-50"><a href="#Pres" @click="menuVisible = !menuVisible" class="z-50">
+            <li class="z-50"><a href="#About" @click="menuVisible = !menuVisible" class="z-50">
               <h2 class="z-50">à propos</h2></a>
             </li>
             <li class="z-50"><a to="mailto:contact@marwin-rodrigues.fr" @click="menuVisible = !menuVisible" class="z-50">
@@ -93,7 +93,7 @@
   <div class="mt-96"><span>.</span></div>
   
 
-  <section id="Pres" class="mt-96">
+  <section id="About" class="mt-96">
     <img src="../assets/nuage1.png" alt="" id="cloud" class="absolute hidden desktop:flex">
 
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue phone:text-xs desktop:text-xl desktop:mr-20 phone:text-center desktop:text-right font-swap">PRÉSENTATION</h1>
@@ -686,7 +686,7 @@
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
     <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
-      <div v-for="Projets in Projets" :key="Projets.projectId"  class="phone:mt-10 desktop:mt-0">
+      <div v-for="Projets in Projets" :key="Projets.projectId"  class="phone:mt-10 desktop:mt-0 col-span-1">
         <cardP v-bind="Projets"/>
       </div>
     </div>
@@ -701,8 +701,8 @@
   <section id="Veilles" class="mt-96">
     <h1>Veilles Technologiques</h1>
 
-    <div class="flex justify-center">
-    <div v-for="Veille in Veille" :key="Veille.veilleId" class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8">
+    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
+    <div v-for="Veille in Veille" :key="Veille.veilleId" class="phone:mt-10 desktop:mt-0 col-span-1">
       <cardV v-bind="Veille"/>
     </div></div>
 
@@ -713,7 +713,46 @@
   </section>
 
 
-  <footerm class="bottom-0" />    
+  <footer class="bottom-0">
+
+<!-- NE PAS TOUCHER -->
+<div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+</div>
+
+<!-- Liste des icônes pour les réseaux sociaux -->
+<!-- IMPORTANT : N'oubliez d'insérer les liens de vos réseaux à la place des "#" -->
+
+    <!-- Si vous souhaitez retirer un réseau, supprimer entière une ligne ci-dessous -->
+
+    <!-- Si vous souhaitez ajouter un réseau, rajouter une ligne comme celles ci-dessous, en remplaçant les balises "ion-icon" par des balises
+                            trouvables sur ce site : https://ionic.io/ionicons (Vous cherchez une icône, cliquez sur une, puis coller le code) -->
+<ul class="social_icon gap-4">
+
+    <!-- Icône Facebook -->
+    <li><a href="https://github.com/Marwin-Rdgs" target="_blank"> <img src="../assets/socials/github.png" alt="" class="text-white"> </a></li>
+    <li><a href="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"> <img src="../assets/socials/linkedin.png" alt="" class="text-white"> </a></li>
+    <li><a href="https://www.instagram.com/marwin.rdgs/" target="_blank"> <img src="../assets/socials/instagram.png" alt="" class="text-white"> </a></li>
+
+</ul>
+
+
+<!-- liste des pages, représentant alors un menu du Footer -->
+<!-- IMPORTANT : N'oubliez d'insérer les liens de vos pages à la place des "#" -->
+<ul class="menu">
+    <li><a href="#Projets">Projets</a></li>
+    <li><a href="#Veilles">Veilles</a></li>
+    <li><a href="#About">À propos</a></li>
+    <li><a href="mailto:contact@marwin-rodrigues.fr">Contact</a></li>
+</ul>
+
+<!-- Vous trouverez ici la "mention légale" -->
+<p>Copyright © 2023 Marwin RODRIGUES</p>
+
+  </footer>
 
 
 

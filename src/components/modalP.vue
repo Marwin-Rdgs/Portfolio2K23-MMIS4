@@ -7,8 +7,8 @@
         <h6 class="phone:text-3xs desktop:text-xs">{{projectTitle}}</h6>
         <p class="phone:text-5xs desktop:text-4xs">{{ projectDesc }} <br /> <br /> {{ projectDescTech }} </p>
         <div class="phone:grid desktop:flex desktop:justify-center gap-3">
-        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Repository</button></a>
-        <a href="#" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Documentation</button></a>
+        <a :href="projectRepos" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Repository</button></a>
+        <a :href="projectDoc" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Documentation</button></a>
         <a :href="projectSite" target="_blank"><button class="border-2 border-red-900 bg-red-400 bg-opacity-80 hover:bg-opacity-100 hover:scale-110 duration-300 group py-2 rounded-lg mb-4 hover:shadow-2xl hover:shadow-red-900 text-white hover:text-red-900 px-2 text-4xs">Site</button></a>
       </div></div>
       <div class="close" @click="$emit('close-modal')">

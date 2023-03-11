@@ -1,7 +1,7 @@
 <template>
         <!-- Card -->
-        <div class="mx-auto z-10 hover:scale-110 hover:shadow-mdarkblue hover:shadow-md duration-150 w-[300px]" :id="projectCateg">
-            <div class="relative bg-mdarkblue shadow-lg rounded-lg p-5 overflow-hidden">
+        <div class="mx-auto z-10 hover:scale-110  duration-150 w-[300px]" :id="projectCateg">
+            <div class="relative bg-mdarkblue hover:shadow-mdarkblue hover:shadow-md shadow-lg rounded-lg p-5 overflow-hidden">
                 <!-- Illustration -->
                 <svg class="absolute top-0 right-0" width="158" height="119" aria-hidden="true">
                     <defs>
