@@ -141,56 +141,82 @@
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mdark desktop:text-xl desktop:mr-20 text-left font-swap">COMPÉTENCES</h1>
 
 
-    <div class="flex justify-center"><div class="grid desktop:grid-cols-3 desktop:gap-x-52 desktop:gap-y-20 phone:gap-y-16">
+    <div class="flex justify-center"><div class="grid desktop:grid-cols-3 desktop:gap-x-52 desktop:gap-y-4 phone:gap-y-16">
     
       <!-- LANGAGE PROGRAMMATION  -->
     <div class="group">
       <div class="flex justify-center">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-6 gap-y-8 py-6">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-6 gap-y-14 py-6 mx-4 desktop:mt-12">
           <!-- HTML -->
-          <div class="group relative">
-            <img src="../assets/competences/html.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black desktop:absolute -mt-4 rounded-full">
-              <p class="text-center text-white group-hover:text-black">HTML</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/html.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">HTML</p>
+            </div> </div>
           </div>
           <!-- CSS -->
-          <div class="group relative">
-            <img src="../assets/competences/css.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full">
-              <p class="text-center ml-2">CSS</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/CSS.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">CSS</p>
+            </div> </div>
           </div>
           <!-- JAVASCRIPT -->
-          <div class="group relative">
-            <img src="../assets/competences/js.png" alt="" class="w-[128px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full">
-              <p class="text-center text-white group-hover:text-black desktop:ml-4 phone:scale-75 desktop:scale-100">JavaScript</p>
-            </div>  
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/js.png" alt="" class="w-[64px]">
+            </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Javascript</p>
+            </div> </div>
           </div>
           <!-- PHP -->
-          <div class="group relative">
-            <img src="../assets/competences/PHP.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-3 rounded-full w-full">
-              <p class="text-center hidden group-hover:flex desktop:ml-2">PHP</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/PHP.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">PHP</p>
+            </div> </div>
           </div>
           <!-- Python -->
-          <div class="group relative">
-            <img src="../assets/competences/Python.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full">
-              <p class="text-center hidden group-hover:flex">Python</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/Python.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Python</p>
+            </div> </div>
           </div>
 
           <!-- VBA -->
-          <div class="group relative">
-            <img src="../assets/competences/vba.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full">
-              <p class="text-center hidden group-hover:flex desktop:ml-2">VBA</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/vba.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">VBA</p>
+            </div> </div>
           </div>
+
+
           </div></div>
         </div>
       </div>
@@ -203,75 +229,113 @@
       <!-- FRAMEWORKS  -->
     <div class="group">
       <div class="flex justify-center">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8">
         <!-- Tailwind -->
-        <div class="group relative">
-            <img src="../assets/competences/tailwind.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-3">
-              <p class="text-center hidden group-hover:flex text-black text-5xs -ml-5">Tailwind CSS</p>
+        <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/tailwind.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Tailwind</p>
+            </div> </div>
           </div>
           <!-- bootstrap -->
-          <div class="group relative">
-            <img src="../assets/competences/Bootstrap.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-3">
-              <p class="text-center hidden group-hover:flex -ml-8">Bootstrap</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/Bootstrap.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Bootstrap</p>
+            </div> </div>
           </div>
           <!-- uikit -->
-          <div class="group relative">
-            <img src="../assets/competences/uikit.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center text-white group-hover:text-black -ml-4">uikit</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/uikit.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Uikit</p>
+            </div> </div>
           </div>
           <!-- vuejs -->
-          <div class="group relative">
-            <img src="../assets/competences/vuejs.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center hidden group-hover:flex -ml-5">VueJS</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/vuejs.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">VueJS</p>
+            </div> </div>
           </div>
           <!-- Angular -->
-          <div class="group relative">
-            <img src="../assets/competences/Angular.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center hidden group-hover:flex -ml-7">Angular</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/Angular.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Angular</p>
+            </div> </div>
           </div>
 
           <!-- ThreeJS -->
-          <div class="group relative">
-            <img src="../assets/competences/Threejs.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center hidden group-hover:flex -ml-7">ThreeJS</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/Threejs.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">ThreeJS</p>
+            </div> </div>
           </div>
 
           <!-- ChartJS -->
-          <div class="group relative">
-            <img src="../assets/competences/chartjs.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center hidden group-hover:flex -ml-7">ChartJS</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/chartjs.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">ChartJS</p>
+            </div> </div>
           </div>
 
           <!-- AlpineJS -->
-          <div class="group relative">
-            <img src="../assets/competences/alpine.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center hidden group-hover:flex -ml-8">AlpineJS</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/alpine.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">AlpineJS</p>
+            </div> </div>
           </div>
 
           <!-- OpenStreetMap -->
-          <div class="group relative">
-            <img src="../assets/competences/openstreetmap.png" alt="" class="w-[64px]">
-            <div class="desktop:px-16 phone:px-4 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-8">
-              <p class="text-center hidden group-hover:flex phone:-ml-4 desktop:-ml-14 desktop:text-4xs phone:text-5xs">OpenStreetMap</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/openstreetmap.png" alt="" class="w-[64px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-5xs text-white group-hover:text-black">OpenStreetMap</p>
+            </div> </div>
           </div>
+
+
           </div></div>
         </div>
       </div>
@@ -285,22 +349,32 @@
       <!-- CMS  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-2 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-20">
           <!-- Wordpress -->
-          <div class="group relative">
-            <img src="../assets/competences/wordpress.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full desktop:-ml-4">
-              <p class="text-center text-white group-hover:text-black">Wordpress</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/wordpress.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Wordpress</p>
+            </div> </div>
           </div>
           <!-- Wix -->
-          <div class="group relative mt-4">
-            <img src="../assets/competences/wix.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-2 rounded-full w-full">
-              <p class="text-center desktop:ml-2">Wix</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/wix.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Wix</p>
+            </div> </div>
           </div>
+
+
           </div></div>
         </div>
       </div>
@@ -314,36 +388,57 @@
       <!-- BDD  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-12">
           <!-- Supabase -->
-          <div class="group relative">
-            <img src="../assets/competences/supabase.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full desktop:-ml-4">
-              <p class="text-center text-white group-hover:text-black">Supabase</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/supabase.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Supabase</p>
+            </div> </div>
           </div>
           <!-- Firebase -->
-          <div class="group relative">
-            <img src="../assets/competences/firebase.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-8">Firebase</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/firebase.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-3xs text-white group-hover:text-black">Firebase</p>
+            </div> </div>
           </div>
           <!-- PHPMyAdmin -->
-          <div class="group relative">
-            <img src="../assets/competences/phpmyadmin.png" alt="" class="w-[64px]">
-            <div class="px-14 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full -ml-6">
-              <p class="text-center -ml-12">PHPMyAdmin</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/phpmyadmin.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">PhpMyAdmin</p>
+            </div> </div>
           </div>
+
+          <!-- METTRE AU CENTRE -->
+          <div class="hidden desktop:flex"></div>
+
           <!-- SQLLite -->
-          <div class="group relative">
-            <img src="../assets/competences/sqlite.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-3">
-              <p class="text-center -ml-7">SQLlite</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/sqlite.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">SQLLite</p>
+            </div> </div>
           </div>
+
           </div></div>
         </div>
       </div>
@@ -357,36 +452,57 @@
       <!-- Outils de développement  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-12">
           <!-- Git -->
-          <div class="group relative">
-            <img src="../assets/competences/git.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full desktop:ml-3">
-              <p class="text-center text-white group-hover:text-black">Git</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/git.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Git</p>
+            </div> </div>
           </div>
           <!-- Github -->
-          <div class="group relative">
-            <img src="../assets/competences/github.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full">
-              <p class="text-center">Github</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/github.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Github</p>
+            </div> </div>
           </div>
           <!-- VSCode -->
-          <div class="group relative">
-            <img src="../assets/competences/vscode.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-8">VSCode</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/vscode.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">VSCode</p>
+            </div> </div>
           </div>
+
+          <!-- METTRE AU CENTRE -->
+          <div class="hidden desktop:flex"></div>
+          
           <!-- PHPStorm -->
-          <div class="group relative">
-            <img src="../assets/competences/PhpStorm.png" alt="" class="w-[64px]">
-            <div class="px-12 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-4">
-              <p class="text-center -ml-8">PHPStorm</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/PhpStorm.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">PHPStorm</p>
+            </div> </div>
           </div>
+
           </div></div>
         </div>
       </div>
@@ -400,15 +516,23 @@
       <!-- Développement Jeux-vidéos  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-20">
+
+            <!-- METTRE AU CENTRE -->
+            <div class="hidden desktop:flex"></div>
           <!-- UE -->
-          <div class="group relative">
-            <img src="../assets/competences/unreal.png" alt="" class="w-[64px]">
-            <div class="px-4 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full">
-              <p class="text-center text-white group-hover:text-black desktop:text-5xs">Unreal Engine</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/unreal.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-2 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Unreal Engine</p>
+            </div> </div>
           </div>
+
           </div></div>
         </div>
       </div>
@@ -422,22 +546,31 @@
       <!-- Développement d'Application  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-12 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-2 gap-x-24 gap-y-11 py-12 px-8 desktop:mt-20">
           <!-- PowerApps -->
-          <div class="group relative">
-            <img src="../assets/competences/powerapps.png" alt="" class="scale-150">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-1 rounded-full desktop:ml-3">
-              <p class="text-center text-white group-hover:text-black">PowerApps</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/powerapps.png" alt="" class="w-[64px] desktop:scale-150">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-2 py-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Power Apps</p>
+            </div> </div>
           </div>
           <!-- Power Automate -->
-          <div class="group relative mt-3">
-            <img src="../assets/competences/powerautomate.png" alt="" class="">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-1 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-9">Power Automate</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/powerautomate.png" alt="" class="w-[64px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-2 py-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Power Automate</p>
+            </div> </div>
           </div>
+
           </div></div>
         </div>
       </div>
@@ -451,22 +584,31 @@
       <!-- Maquette  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-12 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-2 gap-x-24 gap-y-11 py-12 px-8 desktop:mt-20">
           <!-- Figma -->
-          <div class="group relative">
-            <img src="../assets/competences/figma.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full">
-              <p class="text-center text-white group-hover:text-black">Figma</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/figma.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Figma</p>
+            </div> </div>
           </div>
           <!-- XD -->
-          <div class="group relative">
-            <img src="../assets/competences/xd.png" alt="" class="w-[64px]">
-            <div class="px-6 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full">
-              <p class="text-center -ml-4">Adobe XD</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/xd.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-2 py-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Adobe XD</p>
+            </div> </div>
           </div>
+
           </div></div>
         </div>
       </div>
@@ -480,49 +622,73 @@
       <!-- Design  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="p-4 rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
-          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-12 px-8">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+          <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-12 px-8 desktop:mt-12">
           <!-- Photoshop -->
-          <div class="group relative">
-            <img src="../assets/competences/photoshop.png" alt="" class="w-[64px]">
-            <div class="px-2 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-2 rounded-full desktop:-ml-3">
-              <p class="text-center text-white group-hover:text-black">Photoshop</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/photoshop.png" alt="" class="w-[64px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Photoshop</p>
+            </div> </div>
           </div>
           <!-- Illustrator -->
-          <div class="group relative">
-            <img src="../assets/competences/Illustrator.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-3 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-8">Illustrator</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/Illustrator.png" alt="" class="w-[64px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Illustrator</p>
+            </div> </div>
           </div>
           <!-- Blender -->
-          <div class="group relative">
-            <img src="../assets/competences/Blender.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-6">Blender</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/Blender.png" alt="" class="w-[32px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">Blender</p>
+            </div> </div>
           </div>
           <!-- 3DMax -->
-          <div class="group relative">
-            <img src="../assets/competences/3Dmax.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-7">3DMax</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/3Dmax.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">3DSMax</p>
+            </div> </div>
           </div>
           <!-- OBS -->
-          <div class="group relative">
-            <img src="../assets/competences/OBS.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-3">
-              <p class="text-center -ml-4">OBS</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/OBS.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">OBS</p>
+            </div> </div>
           </div>
           <!-- DaVinci -->
-          <div class="group relative">
-            <img src="../assets/competences/DaVinci.png" alt="" class="w-[64px]">
-            <div class="px-10 py-1 bg-white border border-black hidden group-hover:flex desktop:absolute -mt-4 rounded-full w-full desktop:-ml-2">
-              <p class="text-center -ml-7">DaVinci Resolve</p>
+          <div class="relative">
+            <div class="flex justify-center">
+              <img src="../assets/competences/DaVinci.png" alt="" class="w-[48px]">
             </div>
+
+            <div class="flex justify-center">
+            <div class="px-2 py-1 bg-white border border-black desktop:absolute -mt-1 rounded-full">
+              <p class="text-center text-4xs text-white group-hover:text-black">DaVinci Resolve</p>
+            </div> </div>
           </div>
           </div></div>
         </div>
