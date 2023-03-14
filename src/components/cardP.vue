@@ -63,7 +63,9 @@
     :projectDesc="projectDesc"
     :projectDescTech="projectDescTech"
     :projectImg="projectImg"
-    :projectSite="projectSite"/>
+    :projectSite="projectSite"
+    :projectRepos="projectRepos"
+    :projectDoc="projectDoc"/>
 </template>
 
 <script setup>
@@ -95,7 +97,17 @@ defineProps ({
     projectCateg : {
       type : String,
       default: "all",
-    }
+    },
+    projectDoc : { 
+    type: String,
+    default : "#",
+    },
+    projectRepos : {
+      type: String,
+      default : "#",
+    },
+
+
 });
 </script>
 

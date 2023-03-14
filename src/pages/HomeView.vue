@@ -149,7 +149,7 @@
       <!-- LANGAGE PROGRAMMATION  -->
     <div class="group">
       <div class="flex justify-center">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-6 gap-y-14 py-6 mx-4 desktop:mt-12">
           <!-- HTML -->
           <div class="relative">
@@ -232,7 +232,7 @@
       <!-- FRAMEWORKS  -->
     <div class="group">
       <div class="flex justify-center">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8">
         <!-- Tailwind -->
         <div class="relative">
@@ -352,7 +352,7 @@
       <!-- CMS  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-2 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-20">
           <!-- Wordpress -->
           <div class="relative">
@@ -391,7 +391,7 @@
       <!-- BDD  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-12">
           <!-- Supabase -->
           <div class="relative">
@@ -455,7 +455,7 @@
       <!-- Outils de développement  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-12">
           <!-- Git -->
           <div class="relative">
@@ -519,7 +519,7 @@
       <!-- Développement Jeux-vidéos  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-6 px-8 desktop:mt-20">
 
             <!-- METTRE AU CENTRE -->
@@ -549,7 +549,7 @@
       <!-- Développement d'Application  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-2 gap-x-24 gap-y-11 py-12 px-8 desktop:mt-20">
           <!-- PowerApps -->
           <div class="relative">
@@ -587,7 +587,7 @@
       <!-- Maquette  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-2 gap-x-24 gap-y-11 py-12 px-8 desktop:mt-20">
           <!-- Figma -->
           <div class="relative">
@@ -625,7 +625,7 @@
       <!-- Design  -->
     <div class="group">
       <div class="flex justify-center z-10">
-        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute opacity-0 group-hover:opacity-100 group-hover:translate-y-4 duration-700">
+        <div class="desktop:w-[400px] desktop:h-[300px] rounded-md bg-mdark absolute scale-0 group-hover:scale-100 group-hover:translate-y-4 duration-700">
           <div class="flex justify-center"><div class="grid desktop:grid-cols-3 gap-x-24 gap-y-11 py-12 px-8 desktop:mt-12">
           <!-- Photoshop -->
           <div class="relative">

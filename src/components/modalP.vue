@@ -40,6 +40,14 @@
     projectSite : {
       type: String,
       default: "#",
+    },
+    projectDoc : {
+      type: String,
+      default: "#",
+    },
+    projectRepos : {
+      type : String,
+      default: "#",
     }
   },
   }
