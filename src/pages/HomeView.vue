@@ -790,6 +790,48 @@
   </section>
 
   <div class="h-2 bg-mlightblue blur rotate-180" :class="{hidden: !menuVisible}"></div>
+
+  <img src="../assets/bg-clouds2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0 desktop:-mt-2" :class="{hidden: !menuVisible}">
+  <section id="Stats" class="mt-0 z-10 desktop:-mt-2" :class="{hidden: !menuVisible}">
+    <div class="grid desktop:grid-cols-3 z-10 phone:mt-20 desktop:mt-48">
+      <h2 class="phone:text-lg desktop:text-xl text-center desktop:col-span-3 mb-4 z-10">Marwin c'est</h2>
+      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-10 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="1" :duration="1" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Commanditaires </span> </h4>
+      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0">+<vue3-autocounter ref="Demo" :startAmount="0" :endAmount="999" :duration="5" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Lignes de codes </span></h4>
+      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="14" :duration="3" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Projets </span></h4>
+    </div>
+  </section>
+
+  <section id="Projets" class="mt-32" :class="{hidden: !menuVisible}">
+    <h1 class="mb-24">Mes Projets</h1>
+
+    <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
+    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
+      <div v-for="Projets in Projets" :key="Projets.projectId"  class="phone:mt-10 desktop:mt-0 col-span-1">
+        <cardP v-bind="Projets"/>
+      </div>
+    </div>
+
+
+    <Router-Link to="/projets" class="col-span-3 flex justify-center mt-10">
+      <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
+    </Router-Link>
+
+  </section>
+
+  <section id="Veilles" class="mt-96" :class="{hidden: !menuVisible}">
+    <h1>Veilles Technologiques</h1>
+
+    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
+    <div v-for="Veille in Veille" :key="Veille.veilleId" class="phone:mt-10 desktop:mt-0 col-span-1">
+      <cardV v-bind="Veille"/>
+    </div></div>
+
+    <Router-Link to="/veilles" class="col-span-3 flex justify-center mt-10">
+      <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
+    </Router-Link>
+  
+  </section>
+
   <img src="../assets/bg-clouds1.gif" alt="" class="absolute w-full desktop:h-full phone:h-[1140px] z-0" :class="{hidden: !menuVisible}">
   <section id="Services" class="mt-0 relative shadow-lg shadow-mlightblue" :class="{hidden: !menuVisible}">
 
@@ -840,46 +882,6 @@
 
   </section>
 
-  <img src="../assets/bg-clouds2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0 desktop:-mt-2" :class="{hidden: !menuVisible}">
-  <section id="Stats" class="mt-0 z-10 desktop:-mt-2" :class="{hidden: !menuVisible}">
-    <div class="grid desktop:grid-cols-3 z-10 phone:mt-20 desktop:mt-48">
-      <h2 class="phone:text-lg desktop:text-xl text-center desktop:col-span-3 mb-4 z-10">Marwin c'est</h2>
-      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-10 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="1" :duration="1" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Commanditaires </span> </h4>
-      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0">+<vue3-autocounter ref="Demo" :startAmount="0" :endAmount="999" :duration="5" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Lignes de codes </span></h4>
-      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="14" :duration="3" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Projets </span></h4>
-    </div>
-  </section>
-
-  <section id="Projets" class="mt-32" :class="{hidden: !menuVisible}">
-    <h1 class="mb-24">Mes Projets</h1>
-
-    <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
-    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
-      <div v-for="Projets in Projets" :key="Projets.projectId"  class="phone:mt-10 desktop:mt-0 col-span-1">
-        <cardP v-bind="Projets"/>
-      </div>
-    </div>
-
-
-    <Router-Link to="/projets" class="col-span-3 flex justify-center mt-10">
-      <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
-    </Router-Link>
-
-  </section>
-
-  <section id="Veilles" class="mt-96" :class="{hidden: !menuVisible}">
-    <h1>Veilles Technologiques</h1>
-
-    <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
-    <div v-for="Veille in Veille" :key="Veille.veilleId" class="phone:mt-10 desktop:mt-0 col-span-1">
-      <cardV v-bind="Veille"/>
-    </div></div>
-
-    <Router-Link to="/veilles" class="col-span-3 flex justify-center mt-10">
-      <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
-    </Router-Link>
-  
-  </section>
 
 
   <footer class="bottom-0" :class="{hidden: !menuVisible}">
