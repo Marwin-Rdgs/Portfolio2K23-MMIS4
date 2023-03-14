@@ -4,9 +4,8 @@
   <div class="absolute py-14 w-full bg-mwhite blur-3xl"></div>
     <div class="flex flex-wrap gap-56 relative">
       <a href="#top" @click="menuVisible = true" class="desktop:w-1/12 desktop:scale-50 phone:scale-100 phone:w-1/5 phone:mt-2 phone:ml-2 desktop:mt-0 desktop:ml-0 hover:animate-pulse"><img src="../assets/marwin-logo.svg"></a>
-      <div class="desktop:hidden flex">
-        <button @click="menuVisible = !menuVisible" :class="{hidden: !menuVisible}"><img src="../assets/menu-phone/Menu.svg" alt=""></button>
-        <button @click="menuVisible = !menuVisible" :class="{hidden: menuVisible}"><img src="../assets/menu-phone/cross.png" alt=""></button>
+      <div class="desktop:hidden flex mt-7 scale-110">
+        <a href="#About"><button><img src="../assets/competences/down-chevron.png" alt=""></button></a>
       </div>
 
 
@@ -53,30 +52,9 @@
 
       </div>  
     </div>
-
-    <!-- MENU PHONE -->
-    <nav class="overflow-hidden w-full h-full flex desktop:hidden z-50 bg-white absolute">
-      <div class="h-full w-full z-50" :class="{hidden: menuVisible}">
-        
-        <ul class="z-50">
-            <li class="z-50"><a href="#Projets" @click="menuVisible = !menuVisible" class="z-50">
-              <h2 class="z-50">Projets</h2></a>
-            </li>
-            <li class="z-50"><a href="#Veilles" @click="menuVisible = !menuVisible" class="z-50">
-              <h2 class="z-50">Veilles</h2></a>
-            </li>
-            <li class="z-50"><a href="#About" @click="menuVisible = !menuVisible" class="z-50">
-              <h2 class="z-50">à propos</h2></a>
-            </li>
-            <li class="z-50"><a to="#Contact" @click="menuVisible = !menuVisible" class="z-50">
-              <h2 class="z-50">Contact</h2></a>
-            </li>
-        </ul>
-      </div>
-    </nav>
   </header>
 
-  <section id="top"  :class="{hidden: !menuVisible}">
+  <section id="top">
     <!-- <parallax /> -->
     <div class="absolute z-10 mt-56 phone:left-20 desktop:left-1/3">
       <h1 class="text-transparent bg-clip-text bg-gradient-to-br from-mdarkblue to-mlightblue  font-swap text-center phone:text-xs desktop:text-lg animate__animated animate__jackInTheBox">Welcome to <span class="font-bold"> <br /> Marwin RODRIGUES</span></h1>
@@ -95,10 +73,10 @@
     <v-vanta effect="clouds" :options=options class="w-full z-0 animate__animated animate__fadeIn" />
   </section>
 
-  <div class="mt-96" :class="{hidden: !menuVisible}"><span>.</span></div>
+  <div class="mt-96"><span>.</span></div>
   
 
-  <section id="About" class="mt-96" :class="{hidden: !menuVisible}">
+  <section id="About" class="mt-96">
     <img src="../assets/nuage1.png" alt="" id="cloud" class="absolute hidden desktop:flex mt-10">
 
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue phone:text-xs desktop:text-xl desktop:mr-20 phone:text-center desktop:text-right font-swap">PRÉSENTATION</h1>
@@ -140,8 +118,8 @@
 
   </section>
 
-  <div class="mt-32 h-2 bg-mlightblue blur" :class="{hidden: !menuVisible}"></div>
-  <section id="Compet" class="border-t-2 bg-mdarkblue bg-opacity-80 pb-8 pt-3 shadow-lg shadow-mlightblue" :class="{hidden: !menuVisible}">
+  <div class="mt-32 h-2 bg-mlightblue blur"></div>
+  <section id="Compet" class="border-t-2 bg-mdarkblue bg-opacity-80 pb-8 pt-3 shadow-lg shadow-mlightblue">
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mdark desktop:text-xl desktop:mr-20 text-left font-swap">COMPÉTENCES</h1>
 
 
@@ -707,7 +685,7 @@
 
   </section>
 
-  <section id="Cursus" class="mt-4 shadow-lg shadow-mlightblue pb-4 z-10" :class="{hidden: !menuVisible}">
+  <section id="Cursus" class="mt-4 shadow-lg shadow-mlightblue pb-4 z-10">
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue desktop:text-xl desktop:mr-20 text-right font-swap">PARCOURS</h1>
 
     <div class="container pt-5 flex justify-center">
@@ -753,6 +731,14 @@
           <h2 class="fw-normal font-swap">Professionel</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
+              <div class="title">04/2023 à aujourd'hui</div>
+              <div class="details">
+                <h5><b>Web Developper Freelancer</b></h5>
+                <small class="fg-theme">Chez Marwin Web</small>
+                <p>Création et gestion de site internet et amélioration de la présence en ligne</p>
+              </div>
+            </li>
+            <li>
               <div class="title">09/2022 à aujourd'hui</div>
               <div class="details">
                 <h5><b>Web developper apprentice</b></h5>
@@ -790,10 +776,10 @@
     </div>
   </section>
 
-  <div class="h-2 bg-mlightblue blur rotate-180" :class="{hidden: !menuVisible}"></div>
+  <div class="h-2 bg-mlightblue blur rotate-180"></div>
 
-  <img src="../assets/bg-clouds2.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0 desktop:-mt-2" :class="{hidden: !menuVisible}">
-  <section id="Stats" class="mt-0 z-10 desktop:-mt-2" :class="{hidden: !menuVisible}">
+  <img src="../assets/bg-clouds1.gif" alt="" class="absolute w-full desktop:h-full phone:h-[575px] z-0 desktop:-mt-2">
+  <section id="Stats" class="mt-0 z-10 desktop:-mt-2">
     <div class="grid desktop:grid-cols-3 z-10 phone:mt-20 desktop:mt-48">
       <h2 class="phone:text-lg desktop:text-xl text-center desktop:col-span-3 mb-4 z-10">Marwin c'est</h2>
       <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-10 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="1" :duration="1" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Commanditaires </span> </h4>
@@ -802,7 +788,7 @@
     </div>
   </section>
 
-  <section id="Projets" class="phone:mt-32 desktop:mt-72" :class="{hidden: !menuVisible}">
+  <section id="Projets" class="phone:mt-32 desktop:mt-72">
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
@@ -819,9 +805,9 @@
 
   </section>
 
-  <hr :class="{hidden: !menuVisible}"/>
-  <div class="h-2 bg-mdarkblue blur rotate-180" :class="{hidden: !menuVisible}"></div>
-  <section id="Veilles" class="mt-0 bg-mdark" :class="{hidden: !menuVisible}">
+  <hr />
+  <div class="h-2 bg-mdarkblue blur rotate-180"></div>
+  <section id="Veilles" class="mt-0 bg-mdark">
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue phone:text-lg desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Veille Technologique</h1>
 
     <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
@@ -835,10 +821,9 @@
   
   </section>
 
-  <img src="../assets/bg-clouds1.gif" alt="" class="absolute w-full desktop:h-full phone:h-[1140px] z-0" :class="{hidden: !menuVisible}">
-  <section id="Contact" class="mt-0 relative shadow-lg shadow-mlightblue" :class="{hidden: !menuVisible}">
+  <section id="Contact" class="mt-0 relative shadow-lg shadow-mlightblue">
 
-    <h1 class="z-10 text-transparent bg-clip-text bg-gradient-to-b from-black to-mdarkblue desktop:text-xl desktop:mr-20 text-left font-swap">SERVICES</h1>
+    <h1 class="z-10 text-transparent bg-clip-text bg-gradient-to-b from-black to-mdarkblue desktop:text-xl desktop:mr-20 text-right font-swap">CONTACT</h1>
 
 
     <div class="desktop:grid-cols-3 desktop:grid desktop:mt-20 desktop:mx-4">
@@ -887,7 +872,7 @@
 
 
 
-  <footer class="bottom-0" :class="{hidden: !menuVisible}">
+  <footer class="bottom-0">
 
 <!-- NE PAS TOUCHER -->
 <div class="waves">
