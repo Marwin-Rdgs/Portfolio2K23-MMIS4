@@ -3,6 +3,7 @@
     <div class="modal-overlay" @click="$emit('close-modal')">
       <div class="modal phone:w-[300px] phone:h-[720px] desktop:w-[500px] desktop:h-[500px]" @click.stop>
         <!-- DIMENSION IDEALE IMG = 1280x450 -->
+        <img src="" alt="">
         <img :src="projectImg" alt="" class="rounded-t-[20px] -mt-3 h-1/3 w-full">
         <h6 class="phone:text-3xs desktop:text-xs">{{projectTitle}}</h6>
         <p class="phone:text-5xs desktop:text-4xs">{{ projectDesc }} <br /> <br /> {{ projectDescTech }} </p>

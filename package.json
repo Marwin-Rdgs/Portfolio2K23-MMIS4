@@ -9,6 +9,7 @@
   "dependencies": {
     "@formkit/vue": "^1.0.0-beta.12",
     "@supabase/supabase-js": "^2.2.0",
+    "animate.css": "^4.1.1",
     "tailwind": "^4.0.0",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5",

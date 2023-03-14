@@ -78,17 +78,20 @@
   <section id="top"  :class="{hidden: !menuVisible}">
     <!-- <parallax /> -->
     <div class="absolute z-10 mt-56 phone:left-20 desktop:left-1/3">
-      <h1 class="text-transparent bg-clip-text bg-gradient-to-br from-mdarkblue to-mlightblue  font-swap text-center phone:text-xs desktop:text-lg">Welcome to <span class="font-bold"> <br /> Marwin RODRIGUES</span></h1>
+      <h1 class="text-transparent bg-clip-text bg-gradient-to-br from-mdarkblue to-mlightblue  font-swap text-center phone:text-xs desktop:text-lg animate__animated animate__jackInTheBox">Welcome to <span class="font-bold"> <br /> Marwin RODRIGUES</span></h1>
       <div class="flex justify-center">
-        <div class="desktop:py-1 desktop:px-2 bg-mlightblue bg-opacity-40 rounded-full w-3/5 text-center"> <h3 class="text-mdarkblue shadow-2xl shadow-black rounded-full phone:text-4xs desktop:text-3xs">Web Developper Apprentice</h3></div>
+        <div class="desktop:py-1 desktop:px-2 bg-mlightblue bg-opacity-40 rounded-full w-3/5 text-center animate__animated animate__zoomInUp"> <h3 class="text-mdarkblue shadow-2xl shadow-black rounded-full phone:text-4xs desktop:text-3xs">Web Developper Apprentice</h3></div>
       </div>
-      <div class="flex justify-center gap-10 mt-5">
+      <div class="flex justify-center gap-10 mt-5 animate__animated animate__fadeIn">
         <a href="https://github.com/Marwin-Rdgs" target="_blank"><img src="../assets/socials/github.png" alt="" class="hover:-translate-y-2 hover:duration-100 hover:scale-110"></a>
         <a href="https://www.instagram.com/marwin.rdgs/" target="_blank"><img src="../assets/socials/instagram.png" alt="" class="hover:-translate-y-2 hover:duration-100 hover:scale-110"></a>
         <a href="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"><img src="../assets/socials/linkedin.png" alt="" class="hover:-translate-y-2 hover:duration-100 hover:scale-110"></a>
       </div>
+      <div class="flex justify-center mt-52 relative z-10">
+        <a href="#About"><img src="../assets/competences/down-chevron.png" alt="" class="animate-bounce"></a>
+      </div>
     </div>
-    <v-vanta effect="clouds" :options=options class="w-full z-0" />
+    <v-vanta effect="clouds" :options=options class="w-full z-0 animate__animated animate__fadeIn" />
   </section>
 
   <div class="mt-96" :class="{hidden: !menuVisible}"><span>.</span></div>
@@ -990,9 +993,9 @@ export default {
 /* CLOUDS */
 #cloud {
     animation: 5s cubic-bezier(0.1, 0.01, 0.1, 0.01)
-               infinite alternate bounce;
+               infinite alternate sky;
   }  
-  @keyframes bounce {
+  @keyframes sky {
     from { transform: translate(200px, 0); }
     to   { transform: translate(20px, 0); }
   }
