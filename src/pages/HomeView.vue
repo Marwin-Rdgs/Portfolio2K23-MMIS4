@@ -801,8 +801,8 @@
     </div>
   </section>
 
-  <section id="Projets" class="mt-72" :class="{hidden: !menuVisible}">
-    <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Projets</h1>
+  <section id="Projets" class="phone:mt-32 desktop:mt-72" :class="{hidden: !menuVisible}">
+    <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
     <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
@@ -821,7 +821,7 @@
   <hr/>
   <div class="h-2 bg-mdarkblue blur rotate-180" :class="{hidden: !menuVisible}"></div>
   <section id="Veilles" class="mt-0 bg-mdark" :class="{hidden: !menuVisible}">
-    <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Veille Technologique</h1>
+    <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue phone:text-lg desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Veille Technologique</h1>
 
     <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
     <div v-for="Veille in Veille" :key="Veille.veilleId" class="phone:mt-10 desktop:mt-0 col-span-1">
