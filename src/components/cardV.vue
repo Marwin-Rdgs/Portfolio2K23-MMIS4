@@ -1,7 +1,7 @@
 <template>
   <!-- Card -->
   <div class="mx-auto z-10 hover:scale-110 duration-150 w-[300px]" :id="veilleCateg">
-      <div class="relative bg-mdark shadow-lg rounded-lg p-5 overflow-hidden hover:shadow-mdark hover:shadow-md">
+      <div class="relative bg-mdark shadow-lg rounded-lg p-5 overflow-hidden hover:shadow-mlightblue hover:shadow-sm">
           <!-- Illustration -->
           <svg class="absolute top-0 right-0" width="158" height="119" aria-hidden="true">
               <defs>

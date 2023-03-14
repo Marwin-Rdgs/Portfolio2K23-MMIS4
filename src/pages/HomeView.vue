@@ -797,12 +797,12 @@
       <h2 class="phone:text-lg desktop:text-xl text-center desktop:col-span-3 mb-4 z-10">Marwin c'est</h2>
       <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-10 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="1" :duration="1" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Commanditaires </span> </h4>
       <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0">+<vue3-autocounter ref="Demo" :startAmount="0" :endAmount="999" :duration="5" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Lignes de codes </span></h4>
-      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="14" :duration="3" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Projets </span></h4>
+      <h4 class="phone:text-xs desktop:text-lg text-center z-10 phone:mt-8 desktop:mt-0"><vue3-autocounter ref="Demo" :startAmount="0" :endAmount="13" :duration="3" prefix="" suffix="" separator="" decimalSeparator="" :decimals="0" :autoinit="true" /> <br /> <span class="phone:text-3xs desktop:text-xs"> Projets </span></h4>
     </div>
   </section>
 
-  <section id="Projets" class="mt-32" :class="{hidden: !menuVisible}">
-    <h1 class="mb-24">Mes Projets</h1>
+  <section id="Projets" class="mt-72" :class="{hidden: !menuVisible}">
+    <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Projets</h1>
 
     <!-- data-toggle="modal" data-target="#portfolioModal0" (Ouverture POPUP = First portfolio) -->
     <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
@@ -813,13 +813,15 @@
 
 
     <Router-Link to="/projets" class="col-span-3 flex justify-center mt-10">
-      <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
+      <button class="w-10/12 border-2 border-mdarkblue bg-mdarkblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-full mb-32 hover:shadow-2xl hover:shadow-mlightblue"><p class="text-mdark group-hover:text-mwhite duration-700">Voir plus ...</p></button>
     </Router-Link>
 
   </section>
 
-  <section id="Veilles" class="mt-96" :class="{hidden: !menuVisible}">
-    <h1>Veilles Technologiques</h1>
+  <hr/>
+  <div class="h-2 bg-mdarkblue blur rotate-180" :class="{hidden: !menuVisible}"></div>
+  <section id="Veilles" class="mt-0 bg-mdark" :class="{hidden: !menuVisible}">
+    <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Veille Technologique</h1>
 
     <div class="grid desktop:grid-cols-3 phone:mx-2 desktop:mx-8 gap-y-6">
     <div v-for="Veille in Veille" :key="Veille.veilleId" class="phone:mt-10 desktop:mt-0 col-span-1">
@@ -827,7 +829,7 @@
     </div></div>
 
     <Router-Link to="/veilles" class="col-span-3 flex justify-center mt-10">
-      <button class="w-10/12 border-2 border-mlightblue bg-mlightblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-lg mb-32 hover:shadow-2xl hover:shadow-mdarkblue"><p class="text-mlightblue group-hover:text-mdarkblue duration-300">Voir plus ...</p></button>
+      <button class="w-10/12 border-2 border-mdarkblue bg-mdarkblue bg-opacity-0 hover:bg-opacity-80 hover:scale-110 duration-300 group py-2 rounded-full mb-32 hover:shadow-md hover:shadow-mlightblue"><p class="text-mdarkblue group-hover:text-mwhite duration-700">Voir plus ...</p></button>
     </Router-Link>
   
   </section>
