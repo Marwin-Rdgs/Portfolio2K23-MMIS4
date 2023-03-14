@@ -20,7 +20,12 @@
             
               <!--  -->
             <ul class="flex gap-10 pt-5 rounded-full">
-                
+
+              
+                <div class="group relative">
+                  <a href="#About" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">À propos</p></li></a>
+                  <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
+                </div>  
                 <div class="group relative">
                   <a href="#Projets" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">Projets</p></li></a>
                   <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
@@ -30,11 +35,7 @@
                   <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
                 </div>
                 <div class="group relative">
-                  <a href="#About" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">À propos</p></li></a>
-                  <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
-                </div>
-                <div class="group relative">
-                  <a href="mailto:contact@marwin-rodrigues" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">Contact</p></li></a>
+                  <a href="#Contact" class="z-20"><li class="ml-4 z-20"><p class="z-20 relative opacity-60 group-hover:opacity-100 duration-200 group-hover:font-bold">Contact</p></li></a>
                   <div class="flex justify-center"><div class="group-hover:w-full w-0 duration-500 bg-mlightblue h-1 rounded-lg ml-4 "></div></div>
                 </div>
 
@@ -67,7 +68,7 @@
             <li class="z-50"><a href="#About" @click="menuVisible = !menuVisible" class="z-50">
               <h2 class="z-50">à propos</h2></a>
             </li>
-            <li class="z-50"><a to="mailto:contact@marwin-rodrigues.fr" @click="menuVisible = !menuVisible" class="z-50">
+            <li class="z-50"><a to="#Contact" @click="menuVisible = !menuVisible" class="z-50">
               <h2 class="z-50">Contact</h2></a>
             </li>
         </ul>
@@ -818,7 +819,7 @@
 
   </section>
 
-  <hr/>
+  <hr :class="{hidden: !menuVisible}"/>
   <div class="h-2 bg-mdarkblue blur rotate-180" :class="{hidden: !menuVisible}"></div>
   <section id="Veilles" class="mt-0 bg-mdark" :class="{hidden: !menuVisible}">
     <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-mdarkblue to-mlightblue phone:text-lg desktop:text-xl desktop:mr-20 text-center font-swap animate-pulse mb-5">Veille Technologique</h1>
@@ -835,7 +836,7 @@
   </section>
 
   <img src="../assets/bg-clouds1.gif" alt="" class="absolute w-full desktop:h-full phone:h-[1140px] z-0" :class="{hidden: !menuVisible}">
-  <section id="Services" class="mt-0 relative shadow-lg shadow-mlightblue" :class="{hidden: !menuVisible}">
+  <section id="Contact" class="mt-0 relative shadow-lg shadow-mlightblue" :class="{hidden: !menuVisible}">
 
     <h1 class="z-10 text-transparent bg-clip-text bg-gradient-to-b from-black to-mdarkblue desktop:text-xl desktop:mr-20 text-left font-swap">SERVICES</h1>
 
@@ -919,7 +920,7 @@
     <li><a href="#Projets">Projets</a></li>
     <li><a href="#Veilles">Veilles</a></li>
     <li><a href="#About">À propos</a></li>
-    <li><a href="mailto:contact@marwin-rodrigues.fr">Contact</a></li>
+    <li><a href="#Contact">Contact</a></li>
 </ul>
 
 <!-- Vous trouverez ici la "mention légale" -->

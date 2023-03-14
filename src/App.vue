@@ -4,7 +4,7 @@ import { supabase } from '@/supabase.js'
 
 </script>
 
-<template>
+<template class="scroll-smooth">
 
 
   <suspense><RouterView/></suspense>
