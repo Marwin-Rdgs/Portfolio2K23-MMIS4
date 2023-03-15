@@ -834,7 +834,7 @@
             <img src="../assets/projet.png" alt="">
           </div>
           <h1 class="text-center font-sans">Un projet ?</h1>
-          <p class="font-sans text-3xs text-center mt-2">>Envie de créer votre présence sur le web ? <br /> je vous propose mes services en tant que récent freelance afin d'améliorer vos présences en créant un site web, produire une refonte graphique, modifier votre stratégie de communication, où allimenter vos réseaux sociaux ! <br /> Alors n'attendez pas et contactez moi !</p>
+          <p class="font-sans text-3xs text-center mt-2">Envie de créer votre présence sur le web ? <br /> je vous propose mes services en tant que récent freelance afin d'améliorer vos présences en créant un site web, produire une refonte graphique, modifier votre stratégie de communication, où allimenter vos réseaux sociaux ! <br /> Alors n'attendez pas et contactez moi !</p>
         </div>
       </div>
 
