@@ -106,7 +106,7 @@
           </ul>
 
           <div class="flex justify-center desktop:w-1/2 mt-4">
-          <a href="#"><button class="rounded-full border-2 border-mdarkblue px-2 py-1 hover:bg-mdarkblue hover:text-white hover:scale-110 duration-300">Voir mon CV</button></a>
+          <a href="/Marwin-RODRIGUES_CV.pdf" target="_blank"><button class="rounded-full border-2 border-mdarkblue px-2 py-1 hover:bg-mdarkblue hover:text-white hover:scale-110 duration-300">Voir mon CV</button></a>
           </div>
       
         </div>
