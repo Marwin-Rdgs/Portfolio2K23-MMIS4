@@ -826,15 +826,15 @@
     <h1 class="z-10 text-transparent bg-clip-text bg-gradient-to-b from-black to-mdarkblue desktop:text-xl desktop:mr-20 text-right font-swap">CONTACT</h1>
 
 
-    <div class="desktop:grid-cols-3 desktop:grid desktop:mt-20 desktop:mx-4">
+    <div class="desktop:grid-cols-2 desktop:grid desktop:mt-20 desktop:mx-4">
       <!-- Service 1 -->
       <div class="col-span-1 flex justify-center">
         <div>
           <div class="flex justify-center">
-            <img src="../assets/design.png" alt="">
+            <img src="../assets/projet.png" alt="">
           </div>
-          <h1 class="text-center font-sans">Design</h1>
-          <p class="font-sans text-3xs text-center mt-2">Besoin de créer une maquette de site internet pour votre projet ? <br /> je vous propose mes services de Maquettage et Prototyppage Web</p>
+          <h1 class="text-center font-sans">Un projet ?</h1>
+          <p class="font-sans text-3xs text-center mt-2">>Envie de créer votre présence sur le web ? <br /> je vous propose mes services en tant que récent freelance afin d'améliorer vos présences en créant un site web, produire une refonte graphique, modifier votre stratégie de communication, où allimenter vos réseaux sociaux ! <br /> Alors n'attendez pas et contactez moi !</p>
         </div>
       </div>
 
@@ -842,21 +842,15 @@
       <div class="col-span-1 flex justify-center phone:mt-20 desktop:mt-0">
         <div>
           <div class="flex justify-center">
-            <img src="../assets/developpement.png" alt="">
-          </div>
-          <h1 class="text-center">Développement</h1>
-          <p class="font-sans text-4xs text-center mt-2">Envie de créer votre présence sur le web ? <br /> Je vous propose mes services d'Intégration, Développement, et Hébergement de site internet !</p>
-        </div>
-      </div>
-
-      <!-- Service 1 -->
-      <div class="col-span-1 flex justify-center phone:mt-20 desktop:mt-0">
-        <div>
-          <div class="flex justify-center">
-            <img src="../assets/communication.png" alt="">
+            <img src="../assets/contact.png" alt="">
           </div>
           <h1 class="text-center">Communication</h1>
-          <p class="font-sans text-4xs text-center mt-2">Une envie d'améliorer votre présence sur internet ?<br /> je vous propose mes services d'analyse de stratégie de communication mais également d'alimenter vos réseaux sociaux.</p>
+          <p class="font-sans text-4xs text-center mt-2">Une envie de me contacter pour une autre raison ?<br /> Recrutement, simples informations, n'attendez pas et contactez moi !</p>
+          <div class="flex justify-center gap-10 mt-5">
+            <a href="https://github.com/Marwin-Rdgs" target="_blank"><img src="../assets/socials/github_dark.png" alt="" class="hover:-translate-y-2 hover:duration-300 hover:scale-110 text-mdark"></a>
+            <a href="https://www.instagram.com/marwin.rdgs/" target="_blank"><img src="../assets/socials/instagram_dark.png" alt="" class="hover:-translate-y-2 hover:duration-300 hover:scale-110"></a>
+            <a href="https://www.linkedin.com/in/marwin-rodrigues/" target="_blank"><img src="../assets/socials/linkedin_dark.png" alt="" class="hover:-translate-y-2 hover:duration-300 hover:scale-110"></a>
+          </div>
         </div>
       </div>
 
